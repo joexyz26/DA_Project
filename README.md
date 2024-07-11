@@ -13,10 +13,9 @@
 - Python 3.x
 - pandas
 <br>
-
-可以使用以下命令安裝pandas：
-```shell
-pip install pandas
+請運行以下命令來安裝所需的套件：
+```sh
+pip install -r requirements.txt
 ```
 <br>
 
