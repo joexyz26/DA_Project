@@ -54,7 +54,7 @@ process_group 函數處理每個標籤組別，將其轉換為包含標籤名稱
 **4. 構建所需的 JSON 結構：**
 
 使用 groupby 依據 **member_id** 進行 **第一層分組**，並對各組別應用lambda函數，產生包含 _id、member_id 和 tags 的字典結構。\
- 再次使用 groupby 依據 **tag_name** 進行 **第二層分組**，並應用 process_group 函數。
+在 tags 中再次使用 groupby 依據 **tag_name** 進行 **第二層分組**，並應用 process_group 函數。
    ```python
    result = df.groupby('member_id').apply(lambda x： {
     '_id': x.name,
