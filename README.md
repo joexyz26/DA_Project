@@ -14,7 +14,7 @@
 - pandas
 <br>
 請運行以下命令來安裝所需的套件：
-```sh
+```shell
 pip install -r requirements.txt
 ```
 <br>
